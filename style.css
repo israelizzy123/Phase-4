@@ -38,7 +38,7 @@ body {
 }
 
 .block3{
-	display: block;
+
 	height: 25%;
 	width: 100%;
 }
@@ -81,4 +81,17 @@ body {
 
 .green{
 	background-color: #008000;
+}
+.restrict-img-size{
+	max-height:100%;
+	max-width:100%;
+}
+.picture{
+	height:100%;
+	width:100%;
+}
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display:flex;
 }
